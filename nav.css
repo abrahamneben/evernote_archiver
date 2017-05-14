@@ -1,0 +1,17 @@
+a {text-decoration:none;
+	color:black;
+	font-family:arial;
+	border:1px solid #000;
+	font-size:10pt;
+	display:block;
+	padding:10px;
+	margin-top:5px;
+	margin-bottom:10px;}
+
+a p {margin:0}
+
+a.selected {background-color:#aaa;}
+
+a:hover {background-color:#aaa;}
+
+.tags{color:red;}
