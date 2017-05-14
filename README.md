@@ -5,10 +5,10 @@ using it as a digital lab notebook for data analyses for years. Unfortunately th
 bugs and outages on Evernote's servers, and I don't like the idea of having to rely on the Evernote 
 client continuing to exist for years to come.
 
-My proposal is that when you finish a project (i.e., a notebook), export its notes to HTML
-using the built in export command, then run this script to produce an Evernote-like interface
-for viewing those notes. This interface uses HTML/CSS/JS, and it will be supported long after
-Evernote ceases to exist.
+I wrote evernote_archiver to produce a wrapper webpage to view the HTML notes produced by an Evernote
+export in an Evernote-like two-column interface. Navigation is on the left and the note is shown
+on the right. This allows the completed notebook to be preserved in pure HTML/CSS/Javascript without risk
+of accidental deletion or of Evernote going out of business.
 
 ![screenshot](screenshot.gif?raw=true "screenshot")
 
